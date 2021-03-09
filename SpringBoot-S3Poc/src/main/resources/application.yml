@@ -1,0 +1,10 @@
+amazonProperties:
+   endpointUrl: https://s3.us-east-1.amazonaws.com ( if required chnge the URL )
+   accessKey: put the access ID here
+   secretKey: put the access secret key here
+   bucketName: put bucket name here
+spring:
+ servlet:
+  multipart:
+   max-file-size: 100MB
+   max-request-size: 100MB
